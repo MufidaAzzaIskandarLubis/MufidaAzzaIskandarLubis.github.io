@@ -1,0 +1,74 @@
+/* Reset semua elemen HTML */
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Atur tampilan umum halaman */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Wrapper utama */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+/* Gaya untuk logo */
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    color: #EE9322;
+}
+
+/* Gaya untuk menu */
+.menu {
+    float: right;
+}
+
+/* Gaya untuk navigasi */
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    padding: 0 16px;
+    margin-left: 15px; /* Mengganti "left" dengan "margin-left" */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk bagian (section) */
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
